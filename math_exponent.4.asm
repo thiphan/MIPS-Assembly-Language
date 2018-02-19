@@ -1,4 +1,4 @@
-#  Write a MIPS code to do this 225 (2 to the power 25)
+#  Write a MIPS code to do this 2^25 (2 to the power 25)
 
 .data
 	x: .word 1 #to multiply & store the result
