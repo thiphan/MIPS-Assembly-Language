@@ -1,3 +1,8 @@
+/**
+Write a MIPS program to open an input dialog box and read a string value.  
+Write the string back to the user using a message box.  
+**/
+
 .data
 	msg:	.asciiz	"Enter string:"
 	str: .space 100
