@@ -11,7 +11,7 @@ if (a + a == b) {
 
 
 .data
-	a: .word 6
+	a: .word 5
 	b: .word 10
 
 .text
