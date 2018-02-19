@@ -1,3 +1,9 @@
+/**
+Implement a program to calculate the 2's complement of a number entered by the user.  
+The program should only use the XOR and ADD operators. 
+Your program should include a proper and useful prompt for input, and print the results in a in both the decimal and Hex manner.
+**/
+
 .data
 	promt: .asciiz  "Enter a number you want to negate: "
 	msg1: .asciiz "Your answer in Decimal is: "
