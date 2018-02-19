@@ -1,3 +1,13 @@
+/** 
+An address (Pointer) in C  converting to MIPS
+// $s0 -> int *p = intArr; 
+// $s1 -> a 
+p[0] = 0; 
+int a = 2; 
+p[1] = a; 
+p[a] = a;
+**/
+
 .data
 	a: .word 2
 	p: .space 12 #array
