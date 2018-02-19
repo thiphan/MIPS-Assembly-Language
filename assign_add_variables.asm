@@ -1,3 +1,12 @@
+/** Convert C to MIPS
+int a=4, b=5, c=6, z;
+ z = a+b+c+10;
+MIPS codes
+You want to assign the variables a, b, c, and (result) z to the saved temporary register ($s_) 
+
+// $s0 -> a, $s1 -> b,  $s2 -> c, $s3 -> z 
+**/
+
 .data
 	a: .word 4
 	b: .word 5
