@@ -1,3 +1,8 @@
+#Write a MIPS program which prompts the user to enter their favorite movie name (“Enter your favorite movie name: ").  
+The program should then print out " so you like the movie:_____ Great !!", where the blank line is replaced by the movie you entered 
+Before exiting the program, use the syscall service ( 33) to play a middle “C” for 1 second (1k msec) 
+as a reed instrument using the Musical Instrument Digital Interface (MISI) services.
+
 .data
 	promt: .asciiz "Enter your favorite movie name: "
 	msg1: .asciiz "\nso you like the movie: "
